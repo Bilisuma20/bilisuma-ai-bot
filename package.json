@@ -1,13 +1,13 @@
 {
   "name": "bilisuma-ai-webdev-bot",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Telegram bot that teaches HTML, CSS, and JS using Gemini API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@google/genai": "latest",
+    "@google/generative-ai": "^0.21.0",
     "telegraf": "^4.16.3"
   }
 }
